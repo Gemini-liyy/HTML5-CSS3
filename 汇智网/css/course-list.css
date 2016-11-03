@@ -1,0 +1,122 @@
+*{margin: 0;padding: 0}
+a{text-decoration: none}
+li{list-style: none}
+a,p{font-size: 14px}
+
+/*header*/
+.header{width: 100%;background: #495A5B ;position: fixed}
+.header-con{  width: 1170px;  margin: 0 auto;  overflow: hidden; }
+.header-con-logo{  padding:12px 15px; float: left }
+.header-con ul{  line-height: 50px; float: left ;margin-top: 5px}
+.header-con ul li{float: left}
+.header-con ul li a{  color: #969898;  margin: 0px 15px;line-height: 50px}
+.header-con ul li a:hover{  color: #ffffff;cursor: pointer }
+.header-con ul li button{width: 100px ;height: 30px; margin: 12px 4px;background: #66c796 ;font-size: 14px ; color: #ffffff ;border: 0}
+.header-con-nav-right{float: right;margin:5px 15px}
+/*course-list*/
+.course-list{width: 100%;padding-top: 80px}
+.course-list-nav{width: 1110px;margin: 0 auto;overflow: hidden}
+.course-list-nav ul{border-bottom: 1px solid #dddddd}
+.course-list-nav ul li{display: inline-block;padding:10px 15px;}
+.course-list-nav-li{border: 1px solid #dddddd;border-bottom:none;border-radius: 4px 4px 0 0}
+.course-list-nav ul li:hover{background: #EEEEEE}
+.course-list-nav ul li a{color: #337ab7}
+.course-list-nav ul li a:hover{color: #555555}
+
+/*course-list-content*/
+.course-list-content{width: 1110px;margin: 10px auto;border:1px solid #dddddd;border-radius:5px}
+.course-list-content-nav{width: 1110px;border-bottom: 1px solid #dddddd;background: #F5F5F5}
+.course-list-content-nav-left{display: inline-block;margin:20px 20px}
+.course-list-content-nav-left a{padding: 6px 12px;border: 1px solid #dddddd;border-radius: 5px;color: #333333;background: #ffffff}
+.course-list-content-nav-left a:not(:last-child){border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.course-list-content-nav-left a:not(:first-child){border-top-left-radius: 0;border-bottom-left-radius: 0;}
+.course-list-content-nav-left a:hover{background: #E6E6E6}
+.course-list-content-nav-mid{display: inline-block;margin:20px 20px}
+.course-list-content-nav-mid a{padding: 6px 12px;border: 1px solid #dddddd;border-radius: 5px;color: #333333;background: #ffffff}
+.course-list-content-nav-mid a:not(:last-child){border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.course-list-content-nav-mid a:not(:first-child){border-top-left-radius: 0;border-bottom-left-radius: 0;}
+.course-list-content-nav-mid a:hover{background: #E6E6E6}
+.course-list-content-nav-right{display: inline-block;margin:20px 20px;float: right}
+.course-list-content-nav-right ul li{float: left}
+.course-list-content-nav-right ul li a{padding: 6px 12px;color: #337AB7;font-size: 15px}
+.course-list-content-con{width: 1110px;overflow: hidden}
+.course-list-content-con div{width: 21%;border:1px solid #dddddd;float: left;padding: 5px;margin: 10px 15px }
+.course-list-content-con div:hover{cursor: pointer;;box-shadow:0 0 15px #666666}
+.course-list-content-con div img{width: 235px;height: 85px ;border-bottom: 1px solid #dddddd}
+.course-list-content-con div h3{text-align: center;line-height: 120px;font-size: 24px;font-weight: 500}
+.course-list-content-page{margin: 10px 450px;overflow: hidden}
+.course-list-content-page ul li{float: left;line-height: 80px;;margin: 0 5px}
+.course-list-content-page ul li a{padding: 8px 15px;border: 1px solid #dddddd;border-radius: 20px;color: #337AB7}
+.course-list-content-page ul li a:hover{color: #777777;background: #EEEEEE}
+/*knowledge*/
+.knowledge-list-content{width: 1110px;margin: 10px auto;overflow: hidden}
+.knowledge-list-content div{width: 21%;border: 1px solid #dddddd;margin: 10px 15px;padding:5px;border-radius: 5px;float: left}
+.knowledge-list-content div:hover{cursor: pointer;;box-shadow:0 0 15px #666666}
+.knowledge-list-content div img{border-right: 1px solid #dddddd;padding: 0 10px 0 5px;vertical-align: middle}
+.knowledge-list-content div span{line-height: 20px;font-size: 24px;padding: 20px 10px;overflow: hidden;}
+/*course-HTML5*/
+.course-h5{width:100%;padding-top: 65px}
+.course-h5 section:nth-child(1){width: 100% ;background: #009688;overflow: hidden}
+.course-h5-title{width:1100px;margin: 40px auto;display: flex;flex-direction: row;}
+.course-h5-title-img{flex: 2}
+.course-h5-title-con{flex: 5;margin-left: 50px;border-right: 1px solid #cccccc}
+.course-h5-title-con h3{color: #ffffff;font-size: 24px;font-weight: 500;margin-top: 30px;margin-bottom: 15px}
+.course-h5-title-con p{color: #b9c8e0;text-indent: 2em;word-break: keep-all;margin-bottom: 60px}
+.course-h5-title-con-but{border-top: 1px solid #AAAAAA;margin-right:20px;display: flex;}
+.course-h5-title-con-but div{margin-right: 5px;margin-top:15px;;border-radius: 3px}
+.course-h5-title-con-but div button,.course-h5-title-con-but div span{border:1px solid #CCCCCC;color:#215550;font-size: 14px}
+.course-h5-title-con-but div button{background: #A3D7D2;width: 55px;line-height: 22px;float: left;border-top-left-radius: 3px;border-bottom-left-radius: 3px}
+.course-h5-title-con-but div span{background: #ffffff;padding: 4px 5px;float: left;border-top-right-radius: 3px;border-bottom-right-radius: 3px}
+.course-h5-title-user{flex: 2;overflow: hidden}
+.course-h5-title-user-img{width: 65px ;height: 65px;margin: 15px;border: 5px solid #ffffff;border-radius: 5px;float: left}
+.course-h5-title-user-img img{width: 65px;height: 65px}
+.course-h5-title-user-con{float: left;margin-bottom: 25px}
+.course-h5-title-user-con h4{color: #cccccc;margin-top: 20px;margin-bottom: 10px;font-size: 19px;font-weight: 600}
+.course-h5-title-user-con button{width: 55px;line-height: 20px;background: #A6DAD5;border: 1px solid #A6DAD5}
+.course-h5-title-user>p{margin-left: 20px;color: #cccccc}
+
+.course-h5 section:nth-child(2){width: 100% ;background: #F0F0F0;overflow: hidden}
+.course-h5-con{width:1110px;margin: 25px auto}
+.course-h5-con-left{width: 700px;float: left;background: #ffffff;padding: 20px 10px;border-radius: 5px}
+.course-h5-con-left-nav{border-bottom: 1px solid #EEEEEE}
+.course-h5-con-left-nav ul{display: flex}
+.course-h5-con-left-nav ul li{padding: 0 20px;line-height: 40px;color: #337AB7}
+.course-h5-con-left-nav ul li:hover{border-bottom: 5px solid rgba(251, 205, 207, 0.44)}
+.course-h5-con-left-nav ul li:nth-child(1){border-bottom: 5px solid #F3565D}
+.course-h5-con-left-con1{border: 1px solid #DDDDDD;border-radius: 5px;margin-top: 15px}
+.course-h5-con-left-con1>div:nth-child(1){background:#F0F0F0 ;border-bottom: 1px solid #dddddd}
+.course-h5-con-left-con1>div:nth-child(1)> h2{margin-left: 15px;line-height: 60px;font-size: 18px;font-weight: 500}
+.course-h5-con-left-con1>div:nth-child(2){width: 95%;border:1px solid #dddddd;border-bottom: none;border-radius:5px;margin: 10px auto 40px auto}
+.course-h5-con-left-con1>div:nth-child(2)>h2{font-size: 14px;font-weight: 500;color:#333333;padding: 10px 15px;border-bottom: 1px solid #dddddd;}
+.course-h5-con-left-con2{border: 1px solid #DDDDDD;border-radius: 5px;margin-top: 10px;background:#F0F0F0 }
+.course-h5-con-left-con2 h2{margin-left: 15px;line-height: 60px;font-size: 18px;font-weight: 500}
+.course-h5-con-left-con3{border: 1px solid #DDDDDD;border-radius: 5px;margin-top: 10px;background:#F0F0F0 }
+.course-h5-con-left-con3 h2{margin-left: 15px;line-height: 60px;font-size: 18px;font-weight: 500}
+.course-h5-con-right{width:350px;height: 500px;float: left;margin-left:30px;border:1px solid #dddddd;border-radius: 5px;background: #ffffff}
+.course-h5-con-right-head{background: #F5F5F5}
+.course-h5-con-right-head h4{padding: 15px 20px;font-size: 15px;font-weight: 400;border-bottom: 1px solid #dddddd}
+.course-h5-con-right-con{width: 90%;margin: 20px;border-bottom: 1px solid #dddddd;margin: 0 auto }
+.course-h5-con-right-con1{background: #F5F5F5}
+
+
+
+
+
+/*foot*/
+.foot{width: 100%;background: #343C3F;overflow: hidden}
+.foot-con{width: 1170px;margin: 0 auto;padding: 40px 0;overflow: hidden}
+.foot-con-left{width: 430px;float: left}
+.foot-con-left p img{margin-bottom: 10px}
+.foot-con-left p,.foot-con-left a{width: 80%;line-height: 22px;margin: 15px 0;color: #cccccc}
+.foot-con-left a{margin: 0 10px}
+.foot-con-left ul{background: url("../images/index!icon.png")}
+.foot-con-left ul li{float: left}
+.foot-con-mid{width: 215px;float: left;margin-left: 60px}
+.foot-con-mid h5,.foot-con-right h5,.foot-con-wechat h5{font-size: 14px;color: #999999;font-weight: 500;margin-bottom: 15px}
+.foot-con-mid ul li a,.foot-con-right ul li a{color: #ccc;line-height: 33px}
+.foot-con-mid ul li a:hover{color:#00D1FE}
+.foot-con-right{width: 214px;float: left}
+.foot-con-right ul li a:hover{color:#00D1FE}
+.foot-con-wechat{width: 214px;float: left}
+.foot hr{margin:0 auto;width: 1170px;color: #4D595D}
+.foot-copy{text-align: center;margin: 40px 0;color: #ccc;font-size: 14px}
