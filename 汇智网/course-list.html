@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课程中心</title>
+    <link rel="stylesheet" href="css/course-list.css">
+    <script src="framework/jquery-2.1.4/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".course-list-nav>ul>li").on("click",function(){
+                $(".course-list-nav>ul>li").removeClass("course-list-nav-li");
+                $(this).addClass("course-list-nav-li");
+                var url = $(this).attr("url");
+                url = url+"?time="+new Date().getTime();
+                $(".con").load(url);
+            });
+            $(".course-list-nav>ul>li").eq(0).trigger("click");
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-con">
+                <a class="header-con-logo" href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <nav class="header-con-nav-left">
+                    <ul>
+                        <li><a href="">课程中心</a></li>
+                        <li><a href="">互动图书</a></li>
+                        <li><a href="">API手册</a></li>
+                        <li><a href="">讨论交流</a></li>
+                        <li><a href="">会员服务</a></li>
+                        <li><a href="">商务合作</a></li>
+                        <li><button>云端练习</button></li>
+                    </ul>
+                </nav>
+                <nav class="header-con-nav-right">
+                    <ul>
+                        <li><a href="">登录</a></li>
+                        <li><a href="">注册</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="course-list">
+            <section>
+                <div class="course-list-nav">
+                    <ul>
+                        <li url="tpl/course-list-1.html"><a href="">课程目录</a></li>
+                        <li url="tpl/course-list-2.html"><a href="">知识体系</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="con">
+                    <div class="course-list-content">
+                        <div class="course-list-content-nav">
+                            <div class="course-list-content-nav-left">
+                                <a href="">全部</a><a href="">前端</a><a href="">移动</a><a href="">后端</a><a href="">数据</a>
+                            </div>
+                            <div class="course-list-content-nav-mid">
+                                <a href="">更多...</a><a href="">▼</a>
+                            </div>
+                            <div class="course-list-content-nav-right">
+                                <ul>
+                                    <li><a href="">最新</a>|</li>
+                                    <li><a href="">热门</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="course-list-content-con">
+                            <div>
+                                <a href=""><img src="images/logo578dfbc816d03a7123dd6335.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo577393bcda97b6e9299d320e.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo577113f4da97b6e9299d31d5.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo575566c5da97b6e9299d316f.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo57525f2eda97b6e9299d301b.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo574bac8cda97b6e9299d2f04.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo57303d5408ce8b3d3a14369e.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo572afcc708ce8b3d3a143619.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo571f48c208ce8b3d3a143533.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo5718b82208ce8b3d3a1432fa.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo5710cb2e08ce8b3d3a1430f1.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                            <div>
+                                <a href=""><img src="images/logo570dce425fd193d76fcc723d.png" alt=""></a>
+                                <h3>BootStrap开发实践</h3>
+                            </div>
+                        </div>
+                        <div class="course-list-content-page">
+                            <ul>
+                                <li><a href="">上一页</a></li>
+                                <li>1/9</li>
+                                <li><a href="">下一页</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </article>
+    <footer>
+        <div class="foot">
+            <div class="foot-con">
+                <div class="foot-con-left">
+                    <p><img src="images/logo_2.png" alt="logo"></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;汇智网是一个学习最前沿编程技术的平台,互动式的学习和实时在线的练习,能让你迅速进入状态,快速掌握知识技能。</p>
+                    <ul>
+                        <li><a href="">QQ空间</a></li>
+                        <li><a href="">新浪微博</a></li>
+                        <li><a href="">腾讯微博</a></li>
+                        <li><a href="">人人网</a></li>
+                    </ul>
+                </div>
+                <div class="foot-con-mid">
+                    <h5>友情链接</h5>
+                    <ul>
+                        <li><a href="">Node.js中文社区</a></li>
+                        <li><a href="">phonegap中文网</a></li>
+                        <li><a href="">布布扣</a></li>
+                        <li><a href="">ionic中文社区</a></li>
+                        <li><a href="">前端社区网</a></li>
+                        <li><a href="">更多>>></a></li>
+                    </ul>
+                </div>
+                <div class="foot-con-right">
+                    <h5>服务与支持</h5>
+                    <ul>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">关注微博</a></li>
+                        <li><a href="">学习交流</a></li>
+                        <li><a href="">课程卡片</a></li>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">语料库集</a></li>
+                        <li><a href="">技术博客</a></li>
+                    </ul>
+                </div>
+                <div class="foot-con-wechat">
+                    <h5>微信订阅号</h5>
+                    <img src="images/code.png" alt="微信订阅号">
+                </div>
+            </div>
+            <hr>
+            <div class="foot-copy">
+                © Hubwiz.com   京ICP备13002042号-2
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

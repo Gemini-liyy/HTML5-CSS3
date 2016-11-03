@@ -1,0 +1,72 @@
+*{margin: 0;padding: 0}
+/*article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}*/
+a{text-decoration: none}
+li{list-style: none}
+
+/*header*/
+.header{  background: url("../images/indexbanner2.jpg") no-repeat;  background-size: 100% 100%;  width: 100%;  height: 650px;  }
+.header-con{  width: 1170px;  margin: 0 auto;  overflow: hidden;  }
+.header-con-logo{  padding:12px 15px; float: left }
+.header-con ul{  line-height: 50px; float: left }
+.header-con ul li{float: left}
+.header-con ul li:not(:nth-child(7)):hover{  background-color: #3A4D61}
+.header-con ul li a{  color: #ffffff;  margin: 5px 15px;  font-size: 14px;  }
+.header-con ul li a:hover{  color: #95C3E1;cursor: pointer }
+.header-con ul li button{width: 100px ;height: 30px; margin: 12px 4px;background: #66c796 ;font-size: 14px ; color: #ffffff ;border: 0}
+.header-con-nav-right{float: right;margin:5px 15px}
+.header-text{text-align: center;width: 100%;margin: 0 auto;color: #ffffff;position: absolute;left: auto;top: 300px}
+.header-text h1{  font-family:inherit; font-weight: 600;font-size: 42px}
+.header-text p{font-family:inherit;line-height: 22px;font-size: 18px;line-height: 22px;margin-top: 30px}
+.header-text a{padding: 15px 65px;margin-top: 30px;background-color: rgba(103, 102, 102, 0.8);border-radius: 5px;font-size: 18px;color: #ffffff;;display: inline-block}
+.header-text a:hover{background-color: rgba(6,92,143,0.8)}
+/*content*/
+.content-one{width: 100%;background: #F5F5F5}
+.content-one-con{width: 1170px;margin: 0 auto;padding: 15px 0;overflow: hidden}
+.content-one-con ul li{width: 228px;margin: 15px 3px}
+.content-one-con-div{margin: 4px ;border: 1px solid #ccc;padding:15px;background: #ffffff}
+.content-one-con-div a:hover{color: #00D1FE}
+.content-one-con-div img{border-bottom: 1px solid #DDDDDD}
+.content-one ul li{ float: left}
+.content-one-con-div h5 a{font-size: 15px;color: #4C4C4C;font-family: inherit;font-weight: 500;line-height: 1.1px}
+.content-one-con-div a{margin-top:7px;color: #999;font-size: 14px}
+
+.content-two{width: 100%}
+.content-two-con{width: 1170px;margin: 0 auto;padding: 30px 0;overflow: hidden}
+.content-two-con>*{float: left}
+.content-two-con-text{margin-left: 40px}
+.content-two-con-text h3{font-size: 30px; font-weight: 500;color: #333333}
+.content-two-con-text p{font-size: 18px;line-height: 33px;margin:20px 0;color: #333333}
+
+.content-three{width: 100%;background: #F5F5F5 }
+.content-three-con{width: 1170px;margin: 0 auto;padding: 30px 0;overflow: hidden}
+.content-three-con-text{float: left}
+.content-three-con-text h3{font-size: 30px; font-weight: 500;color: #333333}
+.content-three-con-text p{font-size: 18px;line-height: 33px;margin:20px 0;color: #333333}
+.content-three-con-text img{margin-top: 10px}
+.content-three-con-img{float: right}
+
+.content-four{width:100%}
+.content-four-con{width: 1170px;margin: 0 auto;padding: 30px 0}
+.content-four-con-text{text-align: center}
+.content-four-con-text h3{font-size: 30px; font-weight: 500;color: #333333}
+.content-four-con-text p{font-size: 18px;line-height: 33px;margin:20px 0;color: #333333}
+.content-four-con-img{margin-left: 205px}
+/*foot*/
+.foot{width: 100%;background: #343C3F;overflow: hidden}
+.foot-con{width: 1170px;margin: 0 auto;padding: 40px 0;overflow: hidden}
+.foot-con-left{width: 430px;float: left}
+.foot-con-left p img{margin-bottom: 10px}
+.foot-con-left p,.foot-con-left a{width: 80%;line-height: 22px;margin: 15px 0;font-size: 14px;color: #cccccc}
+.foot-con-left a{margin: 0 10px}
+.foot-con-left ul{background: url("../images/index!icon.png")}
+.foot-con-left ul li{float: left}
+.foot-con-mid{width: 215px;float: left;margin-left: 60px}
+.foot-con-mid h5,.foot-con-right h5,.foot-con-wechat h5{font-size: 14px;color: #999999;font-weight: 500;margin-bottom: 15px}
+.foot-con-mid ul li a,.foot-con-right ul li a{color: #ccc;line-height: 33px;font-size: 14px}
+.foot-con-mid ul li a:hover{color:#00D1FE}
+.foot-con-right{width: 214px;float: left}
+.foot-con-right ul li a:hover{color:#00D1FE}
+.foot-con-wechat{width: 214px;float: left}
+.foot hr{margin:0 auto;width: 1170px;color: #4D595D}
+.foot-copy{text-align: center;margin: 40px 0;color: #ccc;font-size: 14px}
+
